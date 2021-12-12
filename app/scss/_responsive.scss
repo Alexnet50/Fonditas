@@ -1,0 +1,277 @@
+@media screen and (max-width: 1249px) {
+    .container-lg {
+        max-width: 1000px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {        
+        .hero-images {
+            width: 400px;
+
+            .hero-image-1 {
+                left: 15px;
+            }
+
+            .hero-image-2 {
+                z-index: 3;
+            }
+        }
+    }
+
+    
+    .encuentra-block {
+        .encuentra-content {
+            .encuentra-image {
+                margin-right: -20px;
+            }                
+        }
+    }
+
+    .finder-block{
+        padding: 60px 20px 90px;
+
+        .block-title {
+            margin: 0 0 30px;
+        }
+    }
+
+    .footer {
+        .footer-main {
+            flex-wrap: wrap;
+
+            .links {
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1049px) {
+    .container-lg {
+        max-width: 720px;
+    }
+
+    .header-content {       
+        .hamburger {
+            display: block;
+        }
+
+        .header-nav {
+            position: absolute;            
+            top: 90px;
+            left: 0;
+            width: 100%;
+            height: 300px;
+            background-color: $white;
+            z-index: 1;
+            transform: translateY(-400px);
+            transition: all 0.5s ease 0s;
+
+            .nav-items {
+                margin-left: 30px;
+                padding-top: 20px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .nav-item {
+                    margin-bottom: 20px;
+                }
+
+                a, a:visited {
+                    color: black;
+                
+                }                
+            }
+
+            &.active {
+                transform: translateY(0px);
+            }
+        }        
+
+        .header-buttons {
+            margin: 0 30px;
+            position: absolute;            
+            top: 290px;
+            left: 0;
+            width: 250px;
+            height: 50px;
+            background-color: $white;
+            z-index: 1;
+            transform: translateY(-400px);
+            transition: all 0.5s ease 0s;
+
+            &.active {
+                transform: translateY(0px);
+            }
+        }
+    }
+
+
+    .hero {  
+        .search-block {
+            margin-bottom: 80px;
+            width: 100%;
+
+            .search-input {
+                width: 300px;
+            }
+        }      
+        .hero-images {
+            width: 370px;
+
+            .hero-image-1 {
+                top: 80;
+                transform: translateX(-85px);                
+            }
+
+            .hero-image-2, .hero-image-3 {
+                display: none;
+            }
+        }
+    }
+
+    .search-block {
+        width: 90%;
+        padding: 30px;
+        border-radius: 5px;
+        transform: translateY(-5%);
+        .search {
+            display: block;
+
+            .search-field {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .encuentra-block {
+        .encuentra-content {
+            flex-direction: column;
+            align-items: center;   
+            flex-flow: column-reverse;             
+        }
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .container-lg {
+        width: 540px;
+    }
+
+    .block-title {
+        font-size: 48px;
+    }
+
+    .hero {  
+        .hero-image-1 {
+            display: none;
+        }
+    }
+
+    .arrows-block {
+        display: none;
+    }
+
+    .fondas-content {
+        .arrows-block-hidden {
+            display: flex;
+            width: 220px;
+            margin: 0 auto;
+        }
+    }
+
+    .footer {
+        .paying {
+            margin-bottom: 20px;
+        }
+
+        .terms-conds-link {
+            margin-bottom: 20px;
+        }
+    }   
+}
+
+@media screen and (max-width: 575px) {
+    .container-lg {
+        width: 100%;
+        padding: 16px 15px;
+    }
+
+    .block-title {
+        font-size: 36px;
+    }
+
+    .hero-content {
+        .hero-text {        
+            .title {                
+                margin: 0 30px 20px 0;
+                font-size: 36px;
+            }
+    
+            .pre-title {
+                font-size: 36px;
+            }
+        }
+
+        .search-block {
+            width: 350px;
+
+            .search-input {
+                width: 200px;
+            }
+        }
+    }
+
+    .favorites-content {
+        margin-bottom: 50px;
+    }
+
+    .fondas-content {
+        margin-bottom: 0;
+    }
+
+    .encuentra-block {
+        .encuentra-content {
+            margin-bottom: 50px;
+
+            .block-label {
+                margin-top: 30px;
+            }
+            
+            .encuentra-image {
+                display: none;
+            }
+            
+            .search-block {
+                flex-direction: column;
+                width: 250px;
+                padding: 0;
+            }
+
+            .btn-map-search {
+                margin-top: 20px;
+                width: 200px;
+            }
+        }
+    }
+
+    .mejores-content {
+        .mejores-block {
+            width: 270px;
+            flex-flow: column;
+
+            img {
+                border-top-right-radius: 10px;
+            }
+        }
+    }
+}  
+    
+
+    
+
