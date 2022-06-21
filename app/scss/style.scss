@@ -3,6 +3,7 @@
 @import "global";
 @import "typography";
 @import "stylelib";
+// @import "~hamburgers";
 
 .header {
     // .header-content { 
@@ -27,20 +28,20 @@
     .hamburger {
         display: none;
 
-        &::before {
-        content: '';
-        display: inline-block;
-        position: absolute;
-        top: 50%;
-        right: 12px;
-        width: 50px;
-        height: 50px;        
-        background: url(images/icon-menu.svg) center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        transform: translateY(-50%);  
-        }
+        // &::before {
+        // content: '';
+        // display: inline-block;
+        // position: absolute;
+        // top: 50%;
+        // right: 12px;
+        // width: 50px;
+        // height: 50px;        
+        // background: url(images/icon-menu.svg) center center;
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // cursor: pointer;
+        // transform: translateY(-50%);  
+        // }
     }
 
     .logo {
